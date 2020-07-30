@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Udayan Joshi"
 title_separator          : "-"
 name                     : &name "Udayan Joshi"
-description              : &description "personal description"
-url                      : https://udayan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Graduate Student at UC San Diego"
+url                      : https://udayan14.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "udayan14.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -115,8 +115,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  codechef         : "https://www.codechef.com/users/udayan14"
-  codeforces       : "https://codeforces.com/profile/udayan14"
+#   codechef         : "https://www.codechef.com/users/udayan14"
+#   codeforces       : "https://codeforces.com/profile/udayan14"
 
 # Reading Files
 include:
@@ -177,7 +177,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true

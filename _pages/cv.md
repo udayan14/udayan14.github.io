@@ -11,22 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.Tech(with Honors) in Computer Science and a minor in Mathematics, IIT Bombay, 2019
-  GPA : 8.73
+* B.Tech in Computer Science, IIT Bombay, 2019
 * M.S. in Computer Science, UC San Diego, 2021 (Ongoing)
-  GPA : 3.966
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Machine Learning Intern
+  * Veritas Technologies LLC, Pune
+  * Duties included: Topic Modelling, Sequence Mining, Deep Learning
+  * Supervisor: Niranjan Pendharkar
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2020: Machine Learning and NLP intern
+  * San Diego Supercomputer Center, San Diego
+  * Duties included: Parsing XML files, Relation Extraction, Graph Neural Networks
+  * Supervisor: Prof. Mai Nguyen
   
 Skills
 ======

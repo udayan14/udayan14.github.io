@@ -1,5 +1,5 @@
 ---
-title: "TA : Probabilistic Learning and Decision Making CSE150A"
+title: "TA : Probabilistic Learning and Decision Making (CSE150A)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/cse150A

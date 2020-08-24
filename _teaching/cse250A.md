@@ -1,5 +1,5 @@
 ---
-title: "TA : Probabilistic Learning and Decision Making CSE250A"
+title: "TA : Probabilistic Learning and Decision Making (CSE250A)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/cse250A

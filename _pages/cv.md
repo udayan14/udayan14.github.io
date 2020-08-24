@@ -19,7 +19,7 @@ Education
 Research
 ======
 I am interested in Computer Vision, Machine Learning and Compressive Sensing. 
-I have worked in designing, implementing and analysing greedy algorithms for sparse signal recovery.
+I worked in designing, implementing and analysing greedy algorithms for sparse signal recovery during my undergraduate research.
 
 Work experience
 ======

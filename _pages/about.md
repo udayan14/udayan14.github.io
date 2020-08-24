@@ -16,5 +16,6 @@ I am learning the [bansuri](https://www.wikiwand.com/en/Bansuri) and love listen
 
 Competitive Programming is one of my new found hobbies. I am just a beginner and am trying to improve. Here are my [codechef](https://www.codechef.com/users/udayan14) and [codeforces](https://codeforces.com/profile/udayan14) profiles. I also used to solve Project Euler problems, hopefully I will get back to solving them.
 
+I am also enthusiastic about Football, and always up for a game. Edit: Football here means soccer
 
-I have used [this](https://academicpages.github.io/) template to make my website. Follow the instructions. Its very easy.
+I used [this](https://academicpages.github.io/) template to make my website. Follow the instructions. Its very easy.

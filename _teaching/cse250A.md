@@ -1,22 +1,12 @@
 ---
-title: "Calculus"
+title: "TA : Probabilistic Learning and Decision Making CSE250A"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "IIT Bombay"
-date: 2016-01-01
-location: "Mumbai, India"
+type: "Graduate course"
+permalink: /teaching/cse250A
+venue: "UC San Diego"
+date: 2020-10-01
+location: "San Diego, USA"
 ---
 
-Some random stuff
-
-Heading 1
-======
-
-more random stuff
-
-Heading 2
-======
-
-Heading 3
-======
+I will a TA for CSE250A, a course in AI at UC San Diego. 
+The course is taught by [Prof. Lawrence Saul](https://cseweb.ucsd.edu/~saul/)

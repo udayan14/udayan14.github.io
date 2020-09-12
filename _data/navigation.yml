@@ -4,17 +4,23 @@ main:
   - title: "CV"
     url: /cv/
     
-   - title: "Projects"
-     url: /projects/    
+  - title: "Projects"
+    url: /projects/ 
+    
+  - title: "Random"
+    url: /random/ 
+
+#   - title: "Talks"
+#     url: /talks/    
+ 
+    
+#   - title: "Portfolio"
+#     url: /portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Random"
-    url: /random/ 
-     
+
     
-#   - title: "Portfolio"
-#     url: /portfolio/
 #   - title: "Guide"
 #     url: /markdown/

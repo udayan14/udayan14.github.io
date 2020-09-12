@@ -4,11 +4,10 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Random"
-    url: /random/ 
 
-#   - title: "Talks"
-#     url: /talks/    
+
+   - title: "Projects"
+     url: /projects/    
  
     
 #   - title: "Portfolio"
@@ -17,7 +16,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-
+  - title: "Random"
+    url: /random/ 
     
 #   - title: "Guide"
 #     url: /markdown/

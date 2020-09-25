@@ -30,7 +30,7 @@ Work experience
 
 * Summer 2020: Machine Learning and NLP Intern
   * San Diego Supercomputer Center, San Diego
-  * KeyWwrds: Parser for XML documents, Relation Extraction, Transformer networks, Graph Neural Networks
+  * KeyWords: Relation Extraction, Transformer networks, Graph Neural Networks
   * Supervisor: [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html)
   
 Skills

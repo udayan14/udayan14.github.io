@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Udayan Joshi — Software Engineer at Google · Applied ML &amp; Distributed Systems</title>
+  <meta name="description" content="Udayan Joshi — Software Engineer III at Google working on Machine Learning for Shopping Ads optimization. Previously Member of Technical Staff at Theom.ai (8 granted U.S. patents). M.S. CS at UC San Diego, B.Tech CS (Hons.) at IIT Bombay." />
+  <meta name="author" content="Udayan Joshi" />
+  <link rel="canonical" href="https://udayan14.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Udayan Joshi — Software Engineer at Google · Applied ML &amp; Distributed Systems" />
+  <meta property="og:description" content="Software Engineer III at Google (Shopping Ads ML) · Previously MTS at Theom.ai · 8 Granted U.S. Patents · M.S. CS UC San Diego · B.Tech CS IIT Bombay." />
+  <meta property="og:url" content="https://udayan14.github.io/" />
+  <meta property="og:image" content="https://udayan14.github.io/assets/images/profile.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('uj-theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (_) {}
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Udayan Joshi",
+    "alternateName": "Udayan Pramod Joshi",
+    "url": "https://udayan14.github.io/",
+    "image": "https://udayan14.github.io/assets/images/profile.jpg",
+    "email": "mailto:14udayanjoshi@gmail.com",
+    "jobTitle": "Software Engineer III",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Google",
+      "url": "https://about.google"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "University of California, San Diego"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Technology Bombay"
+      }
+    ],
+    "sameAs": [
+      "https://github.com/udayan14",
+      "https://www.linkedin.com/in/udayan14/",
+      "https://scholar.google.com/citations?user=GyRvWXUAAAAJ",
+      "https://stackoverflow.com/users/7680402/udayan-joshi"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="Udayan Joshi Home">
+        <span class="brand-mark">UJ</span>
+        <span>Udayan Joshi</span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#patents">Patents</a></li>
+          <li><a href="#research">Research &amp; Projects</a></li>
+          <li><a href="#education">Education &amp; Stack</a></li>
+          <li><a href="#beyond">Beyond Work</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="/cv/" class="btn-cv-nav">Full CV</a>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="theme-icon-light" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="theme-icon-dark" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <button type="button" class="icon-btn mobile-toggle" id="mobile-nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow-pill">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Software Engineer III · Google</span>
+            </div>
+            <h1>Udayan Joshi</h1>
+            <p class="hero-subtitle">
+              Building large-scale Machine Learning models &amp; optimization systems at Google — previously distributed cloud data security at Theom.ai.
+            </p>
+            <p class="hero-bio">
+              At <strong>Google</strong>, I develop and deploy production Machine Learning models and experimentation pipelines to optimize Shopping Ad offer and format selection at scale. Previously, as a Member of Technical Staff at <strong>Theom.ai</strong>, I built distributed Go microservices and ML threat-detection systems (co-inventing <strong>8 granted U.S. patents</strong>). I hold an <strong>M.S. in Computer Science from UC San Diego</strong> and a <strong>B.Tech. in CSE (Honors) with a Minor in Mathematics from IIT Bombay</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="mailto:14udayanjoshi@gmail.com" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <span>Get in Touch</span>
+              </a>
+              <button type="button" class="btn btn-secondary" id="copy-email-btn" data-email="14udayanjoshi@gmail.com">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span class="copy-label">14udayanjoshi@gmail.com</span>
+              </button>
+              <a href="#patents" class="btn btn-secondary">
+                <span>View Patents (10)</span>
+              </a>
+            </div>
+
+            <div class="social-strip" aria-label="External profiles">
+              <a class="social-chip" href="https://www.linkedin.com/in/udayan14/" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a class="social-chip" href="https://github.com/udayan14" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a class="social-chip" href="https://scholar.google.com/citations?user=GyRvWXUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                <span>Google Scholar</span>
+              </a>
+              <a class="social-chip" href="https://patents.google.com/?inventor=%22Udayan+Joshi%22+OR+%22Udayan+Pramod+Joshi%22" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                <span>Google Patents</span>
+              </a>
+              <a class="social-chip" href="https://stackoverflow.com/users/7680402/udayan-joshi" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.36 20.2v-5.38h1.79V22H3.85v-7.18h1.79v5.38h11.72zM7.39 18.41h8.97v-1.79H7.39v1.79zm.22-4.06 8.77 1.83.37-1.75-8.77-1.84-.37 1.76zm1.14-4.24 8.12 3.79.76-1.62-8.12-3.8-.76 1.63zm2.27-4 6.88 5.73 1.15-1.38-6.88-5.73-1.15 1.38zM15.45 2l-1.44 1.07 5.34 7.21 1.44-1.07L15.45 2z"/></svg>
+                <span>Stack Overflow</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-portrait-wrap">
+            <img src="/assets/images/profile.jpg" alt="Portrait of Udayan Joshi" class="hero-portrait" width="210" height="210" />
+            <span class="location-caption">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Mountain View, CA
+            </span>
+          </div>
+        </div>
+
+        <!-- Key Highlights -->
+        <div class="metrics-grid" aria-label="Career highlights">
+          <div class="metric-card">
+            <div class="metric-value">8 Granted</div>
+            <div class="metric-label">U.S. Patents (+ 2 Published Apps)</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">5+ Years</div>
+            <div class="metric-label">Applied ML &amp; Distributed Systems</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">3.98 / 4.0</div>
+            <div class="metric-label">M.S. CS GPA · UC San Diego</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">AIR 90</div>
+            <div class="metric-label">B.Tech CS (Hons.) · IIT Bombay</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Career</div>
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-desc">Building large-scale machine learning ranking &amp; optimization systems, rigorous online experimentation, and resilient cloud infrastructure.</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <!-- Google -->
+          <article class="exp-card featured">
+            <div class="exp-top">
+              <div>
+                <h3 class="exp-role">Software Engineer III</h3>
+                <div class="exp-org">Google</div>
+              </div>
+              <div class="exp-meta">
+                <span>Mar 2025 – Present</span>
+                <span class="exp-location">Mountain View, CA</span>
+              </div>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Shopping Ads ML Modeling:</strong> Developing and deploying production <strong>Machine Learning models</strong> to optimize Shopping Ad offer and format selection at scale, leveraging rich user-level and ad-level features.</li>
+              <li><strong>Rigorous Online Experimentation:</strong> Designing and running large-scale <strong>A/B experiments</strong>, meticulously evaluating causal and business impact across core metrics such as <strong>Long-Term Advertiser Value</strong> to validate modeling improvements.</li>
+              <li><strong>End-to-End Launches:</strong> Driving production engineering and launch of offer-selection methods and ad-format optimizations backed by conclusive experimental gains on key performance metrics.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Shopping Ads Optimization</span>
+              <span class="tech-tag">A/B Experimentation</span>
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQL</span>
+            </div>
+          </article>
+
+          <!-- Theom.ai -->
+          <article class="exp-card">
+            <div class="exp-top">
+              <div>
+                <h3 class="exp-role">Member of Technical Staff</h3>
+                <div class="exp-org">Theom.ai</div>
+              </div>
+              <div class="exp-meta">
+                <span>May 2021 – Mar 2025</span>
+                <span class="exp-location">San Jose, CA</span>
+              </div>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Distributed Microservices Architecture:</strong> Designed, developed, and scaled core backend microservices in <strong>Go</strong> powering an enterprise cloud data security and governance SaaS platform.</li>
+              <li><strong>End-to-End Posture &amp; Threat Pipeline:</strong> Built key subsystems across the product lifecycle—scanning customer cloud data environments, exporting structured metadata, computing risk &amp; CIA-triad impact insights, and surfacing real-time alerts and dashboards.</li>
+              <li><strong>Low-Latency Inter-Service RPC:</strong> Engineered lightweight service-to-service communication using <strong>gRPC</strong> and <strong>Protocol Buffers (protobuf)</strong> to maximize throughput and reduce tail latency across internal services.</li>
+              <li><strong>Cloud-Native Infrastructure &amp; Persistence:</strong> Deployed highly available workloads on <strong>AWS (EKS, Lambda, S3)</strong> with Docker &amp; Kubernetes, and architected multi-tier persistence layers across <strong>Snowflake, PostgreSQL, and Redis</strong> for sensitive telemetry and metadata.</li>
+              <li><strong>Applied ML for Data Security:</strong> Integrated <strong>Named Entity Recognition (NER)</strong> for sensitive data classification and <strong>anomaly detection</strong> engines to proactively uncover anomalous queries, shadow clones, insider risks, and data exfiltration.</li>
+              <li><strong>Engineering Mentorship &amp; IP:</strong> Co-inventor on <strong>8 granted U.S. patents</strong> and 2 published patent applications in cloud data warehouse &amp; data lake security; mentored engineering interns on Go microservices design and production software engineering.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Go</span>
+              <span class="tech-tag">gRPC &amp; Protobuf</span>
+              <span class="tech-tag">Kubernetes (AWS EKS)</span>
+              <span class="tech-tag">AWS Lambda &amp; S3</span>
+              <span class="tech-tag">Snowflake</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">NER &amp; Anomaly Detection</span>
+            </div>
+          </article>
+
+          <!-- SDSC -->
+          <article class="exp-card">
+            <div class="exp-top">
+              <div>
+                <h3 class="exp-role">Machine Learning &amp; NLP Intern</h3>
+                <div class="exp-org">San Diego Supercomputer Center (SDSC), UC San Diego</div>
+              </div>
+              <div class="exp-meta">
+                <span>Jun 2020 – Sep 2020</span>
+                <span class="exp-location">San Diego, CA</span>
+              </div>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Scientific Document &amp; Sequence Parsing:</strong> Built automated extraction pipelines to parse genetic sequences and domain metadata across heterogeneous XML, PDF, and Word scientific corpora under the supervision of <a href="https://www.sdsc.edu/" target="_blank" rel="noopener noreferrer">Dr. Mai Nguyen</a>.</li>
+              <li><strong>Relation Extraction &amp; Knowledge Curation:</strong> Designed an end-to-end <strong>Relation Extraction (RE)</strong> pipeline coupling Named Entity Recognition outputs with Transformer-based RE models and interactive graph visualizations—contributing to the peer-reviewed <em>Synthetic Biology Knowledge System</em> published in <em>ACS Synthetic Biology</em>.</li>
+              <li><strong>Graph Representation Learning:</strong> Researched applications of <strong>Graph Neural Networks (GNNs)</strong> for automated scientific knowledge graph construction and link prediction.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">Transformers</span>
+              <span class="tech-tag">Graph Neural Networks</span>
+              <span class="tech-tag">SpaCy</span>
+              <span class="tech-tag">Relation Extraction</span>
+            </div>
+          </article>
+
+          <!-- Veritas -->
+          <article class="exp-card">
+            <div class="exp-top">
+              <div>
+                <h3 class="exp-role">Machine Learning Intern</h3>
+                <div class="exp-org">Veritas Technologies LLC</div>
+              </div>
+              <div class="exp-meta">
+                <span>Summer 2018</span>
+                <span class="exp-location">Pune, India</span>
+              </div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Developed topic modeling, sequence mining, and deep learning prototypes for enterprise telemetry and log analysis under the guidance of Niranjan Pendharkar.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Deep Learning</span>
+              <span class="tech-tag">Topic Modeling</span>
+              <span class="tech-tag">Sequence Mining</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patents -->
+    <section class="section" id="patents">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Intellectual Property</div>
+            <h2 class="section-title">Patents &amp; Filings</h2>
+            <p class="section-desc">Co-inventor on <strong>8 granted U.S. patents</strong> and <strong>2 published U.S. patent applications</strong> assigned to Theom, Inc., covering cloud data warehouse security, data lake threat detection, and automated risk grading.</p>
+          </div>
+        </div>
+
+        <div class="patent-controls">
+          <div class="filter-tabs" role="tablist" aria-label="Filter patents by grant status">
+            <button type="button" class="filter-tab active" role="tab" aria-selected="true" data-filter="all">All (10)</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="granted">Granted Patents (8)</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="published">Published Applications (2)</button>
+          </div>
+          <div class="patent-search-wrap">
+            <svg class="patent-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="patent-search" class="patent-search" placeholder="Filter by keyword or US number..." aria-label="Search patents" />
+          </div>
+        </div>
+
+        <div class="patents-grid" id="patents-grid">
+          <!-- 1. US 12,737,335 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,737,335 B2</span>
+                <span class="badge badge-granted">Granted · Sep 2026</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Securing Data Cloning and Sharing Options on Data Warehouses</h3>
+              <p class="patent-summary">Determines primary versus cloned data warehouse assets using log analysis, lineage timestamps, and metadata fingerprinting to enforce security controls across zero-copy clones and data shares.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · App. 18/100,574</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US20240028572A1/en" target="_blank" rel="noopener noreferrer">Patent Record →</a>
+            </div>
+          </article>
+
+          <!-- 2. US 12,670,273 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,670,273 B2</span>
+                <span class="badge badge-granted">Granted · Jun 2026</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Detecting Hiding and Data Intelligence Gathering in Data Lakes and Cloud Warehousing</h3>
+              <p class="patent-summary">Detects stealthy adversary staging, column anomalies, and unauthorized intelligence collection inside cloud data lakes and warehouses, paired with dynamic masking defenses.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Jul 2023</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12670273B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 3. US 12,634,323 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,634,323 B2</span>
+                <span class="badge badge-granted">Granted · May 2026</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Attack Generation on Data Lakes</h3>
+              <p class="patent-summary">Provides an automated adversarial mimicry framework simulating reconnaissance and infiltration attack chains against enterprise data lakes to validate detection coverage and posture resilience.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed May 2023</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12634323B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 4. US 12,561,429 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,561,429 B2</span>
+                <span class="badge badge-granted">Granted · Feb 2026</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Automatic Grading, Impact Analysis and Mapping to the CIA Triad</h3>
+              <p class="patent-summary">Quantifies datastore business value and maps live attack progression to Confidentiality, Integrity, and Availability (CIA) impact scores for prioritized security remediation.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Sep 2023</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12561429B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 5. US 12,513,163 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,513,163 B2</span>
+                <span class="badge badge-granted">Granted · Dec 2025</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Detecting Data Abuse and Data Exfiltration in Data Lakes and Cloud Warehouses</h3>
+              <p class="patent-summary">Identifies covert command-and-control (CnC) channels, anomalous bulk staging, and malicious compressed artifacts to prevent data abuse and exfiltration across enterprise data clouds.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Aug 2023</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12513163B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 6. US 12,355,796 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,355,796 B2</span>
+                <span class="badge badge-granted">Granted · Jul 2025</span>
+              </div>
+              <h3 class="patent-title">Locating Shadow Vulnerable Datastores for Cloud Data Table/API/Data Lake Stores</h3>
+              <p class="patent-summary">Discovers unmanaged or cloned shadow datastores across cloud database, API, and data lake environments, computes posture drift against primary stores, and generates differential remediations.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Apr 2022</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12355796B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 7. US 12,294,589 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,294,589 B2</span>
+                <span class="badge badge-granted">Granted · May 2025</span>
+              </div>
+              <h3 class="patent-title">Cloud-Platform Push for Known Data Breaches</h3>
+              <p class="patent-summary">Maps Tactics, Techniques, and Procedures (TTPs) and kill chains of emerging data breaches into proactive cloud-platform security checks pushed directly to customer data environments.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Nov 2021</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12294589B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 8. US 12,289,331 B2 -->
+          <article class="patent-card" data-status="granted">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 12,289,331 B2</span>
+                <span class="badge badge-granted">Granted · Apr 2025</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Locating Anomalous Query Activity on Data Stores</h3>
+              <p class="patent-summary">Uses an atypical query analysis engine over cloud databases and SaaS data stores to model access patterns, user roles, and query semantics—flagging anomalous data access in real time.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Jun 2022</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US12289331B2/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 9. US 2024/0106847 A1 -->
+          <article class="patent-card" data-status="published">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 2024/0106847 A1</span>
+                <span class="badge badge-published">Published · Mar 2024</span>
+              </div>
+              <h3 class="patent-title">Methods and Systems for Detecting Reconnaissance and Infiltration in Data Lakes and Cloud Warehouses</h3>
+              <p class="patent-summary">Monitors SaaS and cloud-native data stores from inside the data plane to detect early-stage reconnaissance queries, privilege probing, and infiltration progression.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · App. 18/214,527</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US20240106847A1/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <!-- 10. US 2023/0334162 A1 -->
+          <article class="patent-card" data-status="published">
+            <div>
+              <div class="patent-meta-top">
+                <span class="patent-number">US 2023/0334162 A1</span>
+                <span class="badge badge-published">Published · Oct 2023</span>
+              </div>
+              <h3 class="patent-title">Minimizing Data Governance to Improve Data Security</h3>
+              <p class="patent-summary">Measures access over-provisioning across cloud data warehouses and synthesizes right-sized, context-aware least-privilege policies without heavy manual governance overhead.</p>
+            </div>
+            <div class="patent-footer">
+              <span>Assigned to Theom, Inc. · Filed Feb 2023</span>
+              <a class="patent-link" href="https://patents.google.com/patent/US20230334162A1/en" target="_blank" rel="noopener noreferrer">Google Patents →</a>
+            </div>
+          </article>
+
+          <div class="patent-empty" id="patent-empty" hidden>
+            No patent filings matched your current filter.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research, Publications & Projects -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Scholarship &amp; Applied ML</div>
+            <h2 class="section-title">Publications &amp; Research Projects</h2>
+            <p class="section-desc">Selected peer-reviewed research and applied machine learning collaborations across scientific NLP, climate/wildfire resilience, and sparse signal recovery.</p>
+          </div>
+        </div>
+
+        <div class="cards-grid-3">
+          <!-- ACS Synthetic Biology Paper -->
+          <article class="work-card">
+            <div>
+              <div class="work-type">Journal Publication · 2021</div>
+              <h3 class="work-title">Synthetic Biology Knowledge System</h3>
+              <div class="work-venue">ACS Synthetic Biology · Vol. 10, Issue 9</div>
+              <p class="work-desc">Co-authored peer-reviewed platform paper integrating text-mining, Named Entity Recognition, and Relation Extraction pipelines over scientific literature to accelerate discovery in synthetic biology.</p>
+            </div>
+            <div class="work-links">
+              <a href="https://doi.org/10.1021/acssynbio.1c00188" target="_blank" rel="noopener noreferrer">ACS Publication (DOI) →</a>
+              <a href="https://synbioks.org" target="_blank" rel="noopener noreferrer">SynBioKS →</a>
+            </div>
+          </article>
+
+          <!-- WIFIRE Vegetation -->
+          <article class="work-card">
+            <div>
+              <div class="work-type">Applied ML · UC San Diego × SDG&amp;E</div>
+              <h3 class="work-title">WIFIRE Vegetation &amp; Power-Line Outage Prediction</h3>
+              <div class="work-venue">San Diego Supercomputer Center / WIFIRE</div>
+              <p class="work-desc">Collaborated with San Diego Gas &amp; Electric (SDG&amp;E) to build predictive machine learning models forecasting power-line failures and outages triggered by vegetation and natural phenomena to help prevent California wildfires.</p>
+            </div>
+            <div class="work-links">
+              <a href="https://wifire.ucsd.edu/" target="_blank" rel="noopener noreferrer">WIFIRE Lab →</a>
+            </div>
+          </article>
+
+          <!-- Undergraduate Thesis -->
+          <article class="work-card">
+            <div>
+              <div class="work-type">B.Tech. Honors Thesis · IIT Bombay</div>
+              <h3 class="work-title">Greedy Algorithms for Non-Negative Non-Linear Sparse Regression</h3>
+              <div class="work-venue">Advised by Prof. Ajit Rajwade</div>
+              <p class="work-desc">Designed, implemented, and theoretically analyzed greedy pursuit algorithms for non-negative, non-linear sparse signal recovery with applications in compressive sensing and computer vision.</p>
+            </div>
+            <div class="work-links">
+              <a href="https://www.cse.iitb.ac.in/~ajitvr/" target="_blank" rel="noopener noreferrer">Advisor Lab →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education, Teaching & Stack -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Academic Foundation &amp; Tooling</div>
+            <h2 class="section-title">Education, Teaching &amp; Technical Stack</h2>
+          </div>
+        </div>
+
+        <div class="two-col-grid">
+          <!-- Left: Education & Teaching -->
+          <div class="stack-list">
+            <article class="edu-card">
+              <div class="edu-top">
+                <h3 class="edu-school">University of California, San Diego</h3>
+                <span class="edu-years">Sep 2019 – Mar 2021</span>
+              </div>
+              <div class="edu-degree">Master of Science in Computer Science · GPA: 3.98 / 4.00</div>
+              <p class="edu-detail">
+                Focus on Machine Learning, Computer Vision, and Statistical AI. Served as Graduate Teaching Assistant for <strong>Computer Vision</strong>, <strong>CSE 250A</strong> (Graduate Probabilistic Reasoning &amp; Learning with Prof. Lawrence Saul), and <strong>CSE 150A</strong> (Intro to AI: Probabilistic Models).
+              </p>
+            </article>
+
+            <article class="edu-card">
+              <div class="edu-top">
+                <h3 class="edu-school">Indian Institute of Technology Bombay</h3>
+                <span class="edu-years">Jul 2015 – May 2019</span>
+              </div>
+              <div class="edu-degree">B.Tech. in Computer Science &amp; Engineering (Honors) · Minor in Mathematics</div>
+              <p class="edu-detail">
+                All India Rank <strong>90</strong> in JEE Advanced. Served as Undergraduate Teaching Assistant for <strong>CS 101</strong> (Computer Programming &amp; Utilization with Prof. Ganesh Ramakrishnan) and <strong>MA 105</strong> (Calculus with Prof. A. K. Pani).
+              </p>
+            </article>
+          </div>
+
+          <!-- Right: Technical Stack -->
+          <div class="stack-list">
+            <div class="skill-group">
+              <h3 class="skill-group-title">Languages</h3>
+              <div class="tag-row">
+                <span class="tech-tag">Go (Golang)</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">C / C++</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-title">Distributed Systems &amp; Cloud</h3>
+              <div class="tag-row">
+                <span class="tech-tag">Microservices</span>
+                <span class="tech-tag">gRPC</span>
+                <span class="tech-tag">Protocol Buffers</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">AWS EKS</span>
+                <span class="tech-tag">AWS Lambda</span>
+                <span class="tech-tag">AWS S3</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-title">Data &amp; Security Infrastructure</h3>
+              <div class="tag-row">
+                <span class="tech-tag">Snowflake</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">Cloud Data Lakes</span>
+                <span class="tech-tag">DSPM &amp; Threat Detection</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-title">Machine Learning &amp; Experimentation</h3>
+              <div class="tag-row">
+                <span class="tech-tag">Ads Ranking &amp; Optimization</span>
+                <span class="tech-tag">Online A/B Testing</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Named Entity Recognition</span>
+                <span class="tech-tag">Anomaly Detection</span>
+                <span class="tech-tag">Graph Neural Networks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beyond Work -->
+    <section class="section" id="beyond">
+      <div class="container">
+        <div class="beyond-card">
+          <div>
+            <div class="section-kicker">Personal</div>
+            <h3>Beyond Engineering</h3>
+            <p>
+              Outside of distributed systems and data security, I play the <strong>bansuri</strong> (Indian bamboo flute) and love listening to Indian Classical Music—always happy to trade recommendations for memorable concerts and compositions. You'll also find me on the football (soccer) pitch or occasionally revisiting algorithmic puzzles on <a href="https://codeforces.com/profile/udayan14" target="_blank" rel="noopener noreferrer">Codeforces</a>, <a href="https://www.codechef.com/users/udayan14" target="_blank" rel="noopener noreferrer">CodeChef</a>, and Project Euler.
+            </p>
+          </div>
+          <div class="quote-box">
+            “Err and err and err again, but less, and less, and less.”
+            <span class="quote-author">— Piet Hein, Grooks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Udayan Joshi · Mountain View, CA</div>
+      <div class="footer-links">
+        <a href="mailto:14udayanjoshi@gmail.com">Email</a>
+        <a href="/cv/">Full CV</a>
+        <a href="https://www.linkedin.com/in/udayan14/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/udayan14" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=GyRvWXUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

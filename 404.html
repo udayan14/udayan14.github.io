@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page Not Found — Udayan Joshi</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('uj-theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (_) {}
+    })();
+  </script>
+</head>
+<body>
+  <main class="section" style="min-height:80vh;display:flex;align-items:center;">
+    <div class="container" style="text-align:center;">
+      <div class="section-kicker">404</div>
+      <h1 class="section-title" style="margin-bottom:12px;">Page not found</h1>
+      <p class="section-desc" style="margin:0 auto 24px;">The page you requested doesn't exist or moved during a site refresh.</p>
+      <a href="/" class="btn btn-primary">Return to Homepage</a>
+    </div>
+  </main>
+</body>
+</html>

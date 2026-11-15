@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Vitae — Udayan Joshi</title>
+  <meta name="description" content="Curriculum Vitae of Udayan Joshi — Software Engineer III at Google, previously MTS at Theom.ai, 8 Granted U.S. Patents, M.S. CS UC San Diego, B.Tech CS IIT Bombay." />
+  <link rel="canonical" href="https://udayan14.github.io/cv/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('uj-theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (_) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header no-print">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark">UJ</span>
+        <span>← Back to Portfolio</span>
+      </a>
+      <div class="nav-actions">
+        <button type="button" class="btn-cv-nav" onclick="window.print()" style="cursor:pointer;">
+          Print / Save PDF
+        </button>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="theme-icon-light" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="theme-icon-dark" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="cv-page">
+    <div class="container">
+      <div class="cv-sheet">
+        <div class="cv-header">
+          <div>
+            <h1 class="cv-name">Udayan Joshi</h1>
+            <p class="cv-role">Software Engineer III at Google · Applied Machine Learning &amp; Distributed Systems</p>
+          </div>
+          <div class="cv-contact-list">
+            <div><a href="mailto:14udayanjoshi@gmail.com">14udayanjoshi@gmail.com</a></div>
+            <div><a href="https://udayan14.github.io">udayan14.github.io</a> · Mountain View, CA</div>
+            <div><a href="https://www.linkedin.com/in/udayan14/">linkedin.com/in/udayan14</a> · <a href="https://github.com/udayan14">github.com/udayan14</a></div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Experience</h2>
+
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">Google — Software Engineer III</span>
+              <span class="cv-item-date">Mar 2025 – Present · Mountain View, CA</span>
+            </div>
+            <ul class="exp-bullets" style="margin-top:8px;">
+              <li>Developing and deploying Machine Learning models to optimize Shopping Ad offer and format selection, leveraging user and ad features.</li>
+              <li>Designing and running online experiments (A/B tests), meticulously analyzing results using metrics such as Long-Term Advertiser Value to validate improvements.</li>
+              <li>Driving implementation and launch of offer-selection methods and format optimizations backed by conclusive experiment results demonstrating positive impact on key performance metrics.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">Theom.ai — Member of Technical Staff</span>
+              <span class="cv-item-date">May 2021 – Mar 2025 · San Jose, CA</span>
+            </div>
+            <ul class="exp-bullets" style="margin-top:8px;">
+              <li>Developed and scaled distributed microservices architecture in Go, ensuring high throughput and reliability for an enterprise cloud data security SaaS platform.</li>
+              <li>Built end-to-end product capabilities across customer environment scanning, metadata export, risk/insight generation, and real-time alerting &amp; dashboards.</li>
+              <li>Engineered low-latency service communication with gRPC and Protocol Buffers (protobuf), optimizing network performance across backend microservices.</li>
+              <li>Operated scalable cloud infrastructure on AWS (EKS, S3, Lambda) with Docker &amp; Kubernetes, and designed persistence layers across Snowflake, PostgreSQL, and Redis.</li>
+              <li>Integrated ML components including Named Entity Recognition (NER) and anomaly detection to proactively identify cloud data threats and potential breaches.</li>
+              <li>Mentored engineering interns on software development and microservices architecture; co-inventor on 8 granted U.S. patents and 2 published patent applications.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">San Diego Supercomputer Center (UC San Diego) — Machine Learning Intern</span>
+              <span class="cv-item-date">Jun 2020 – Sep 2020 · San Diego, CA</span>
+            </div>
+            <ul class="exp-bullets" style="margin-top:8px;">
+              <li>Parsed genetic sequences and metadata across XML, PDF, and Word scientific literature for downstream knowledge curation (Supervisor: Dr. Mai Nguyen).</li>
+              <li>Built an end-to-end Relation Extraction (RE) pipeline over Named Entity Recognition outputs with clear graph visualizations, contributing to the <em>Synthetic Biology Knowledge System</em>.</li>
+              <li>Researched Graph Neural Networks (GNNs) for learning structured scientific knowledge graphs.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">Veritas Technologies LLC — Machine Learning Intern</span>
+              <span class="cv-item-date">Summer 2018 · Pune, India</span>
+            </div>
+            <ul class="exp-bullets" style="margin-top:8px;">
+              <li>Worked on topic modeling, sequence mining, and deep learning prototypes for enterprise telemetry analysis (Supervisor: Niranjan Pendharkar).</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Education</h2>
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">University of California, San Diego</span>
+              <span class="cv-item-date">Sep 2019 – Mar 2021 · San Diego, CA</span>
+            </div>
+            <div class="cv-item-sub">Master of Science in Computer Science · GPA: 3.98 / 4.00</div>
+          </div>
+          <div class="cv-item">
+            <div class="cv-item-row">
+              <span class="cv-item-title">Indian Institute of Technology Bombay</span>
+              <span class="cv-item-date">Jul 2015 – May 2019 · Mumbai, India</span>
+            </div>
+            <div class="cv-item-sub">Bachelor of Technology in Computer Science &amp; Engineering with Honors; Minor in Mathematics · JEE Advanced AIR 90</div>
+          </div>
+        </section>
+
+        <!-- Patents -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Granted U.S. Patents &amp; Patent Applications (Assigned to Theom, Inc.)</h2>
+          <ol class="cv-patent-list">
+            <li><strong>US 12,737,335 B2</strong> (Granted Sep 15, 2026) — <a href="https://patents.google.com/patent/US20240028572A1/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for securing data cloning and sharing options on data warehouses</em></a>.</li>
+            <li><strong>US 12,670,273 B2</strong> (Granted Jun 30, 2026) — <a href="https://patents.google.com/patent/US12670273B2/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for detecting hiding and data intelligence gathering in data lakes and cloud warehousing</em></a>.</li>
+            <li><strong>US 12,634,323 B2</strong> (Granted May 19, 2026) — <a href="https://patents.google.com/patent/US12634323B2/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for attack generation on data lakes</em></a>.</li>
+            <li><strong>US 12,561,429 B2</strong> (Granted Feb 24, 2026) — <a href="https://patents.google.com/patent/US12561429B2/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for automatic grading, impact analysis and mapping to the CIA triad</em></a>.</li>
+            <li><strong>US 12,513,163 B2</strong> (Granted Dec 30, 2025) — <a href="https://patents.google.com/patent/US12513163B2/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for detecting data abuse and data exfiltration in data lakes and cloud warehouses</em></a>.</li>
+            <li><strong>US 12,355,796 B2</strong> (Granted Jul 8, 2025) — <a href="https://patents.google.com/patent/US12355796B2/en" target="_blank" rel="noopener noreferrer"><em>Locating shadow vulnerable datastores for cloud data table/API/data lake stores</em></a>.</li>
+            <li><strong>US 12,294,589 B2</strong> (Granted May 6, 2025) — <a href="https://patents.google.com/patent/US12294589B2/en" target="_blank" rel="noopener noreferrer"><em>Cloud-platform push for known data breaches</em></a>.</li>
+            <li><strong>US 12,289,331 B2</strong> (Granted Apr 29, 2025) — <a href="https://patents.google.com/patent/US12289331B2/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for locating anomalous query activity on data stores</em></a>.</li>
+            <li><strong>US 2024/0106847 A1</strong> (Published Application, Mar 28, 2024) — <a href="https://patents.google.com/patent/US20240106847A1/en" target="_blank" rel="noopener noreferrer"><em>Methods and systems for detecting reconnaissance and infiltration in data lakes and cloud warehouses</em></a>.</li>
+            <li><strong>US 2023/0334162 A1</strong> (Published Application, Oct 19, 2023) — <a href="https://patents.google.com/patent/US20230334162A1/en" target="_blank" rel="noopener noreferrer"><em>Minimizing data governance to improve data security</em></a>.</li>
+          </ol>
+        </section>
+
+        <!-- Publications & Selected Projects -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Publications &amp; Research Projects</h2>
+          <ul class="exp-bullets">
+            <li><strong>Publication:</strong> J. Mante, Y. Hao, J. Jett, <strong>U. Joshi</strong>, et al., C. J. Myers (2021). <a href="https://doi.org/10.1021/acssynbio.1c00188" target="_blank" rel="noopener noreferrer"><em>Synthetic Biology Knowledge System</em></a>. <em>ACS Synthetic Biology</em>, 10(9), 2276–2285.</li>
+            <li><strong>WIFIRE Vegetation (UC San Diego × SDG&amp;E):</strong> Built predictive ML models with SDG&amp;E to forecast preventable power-line failures and outages caused by vegetation and natural phenomena to mitigate California wildfire risk.</li>
+            <li><strong>Undergraduate Honors Thesis (IIT Bombay):</strong> <em>Greedy Algorithms for Non-Negative Non-Linear Sparse Regression</em>, advised by Prof. Ajit Rajwade.</li>
+          </ul>
+        </section>
+
+        <!-- Teaching & Leadership -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Teaching &amp; Mentorship</h2>
+          <ul class="exp-bullets">
+            <li><strong>Industry Mentorship (Theom.ai):</strong> Mentored software engineering interns on production Go development and distributed microservices architecture.</li>
+            <li><strong>Graduate Teaching Assistant (UC San Diego):</strong> Computer Vision; CSE 250A (Probabilistic Reasoning &amp; Learning); CSE 150A (Probabilistic AI Models).</li>
+            <li><strong>Undergraduate Teaching Assistant (IIT Bombay):</strong> CS 101 (Computer Programming &amp; Utilization); MA 105 (Calculus).</li>
+          </ul>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Technical Skills</h2>
+          <p class="edu-detail" style="line-height:1.75;">
+            <strong>Languages:</strong> Go, Python, SQL, C/C++<br />
+            <strong>Distributed Systems &amp; Cloud:</strong> Microservices, gRPC, Protocol Buffers, Kubernetes, Docker, AWS (EKS, S3, Lambda)<br />
+            <strong>Data Stores &amp; Platforms:</strong> Snowflake, PostgreSQL, Redis<br />
+            <strong>Machine Learning &amp; Experimentation:</strong> Shopping Ads Optimization, Online A/B Testing, PyTorch, Named Entity Recognition (NER), Anomaly Detection, Graph Neural Networks, scikit-learn, SpaCy
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer no-print">
+    <div class="container footer-inner">
+      <div>© 2026 Udayan Joshi</div>
+      <div class="footer-links">
+        <a href="/">← Back to Portfolio</a>
+        <a href="mailto:14udayanjoshi@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
